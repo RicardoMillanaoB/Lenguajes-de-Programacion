@@ -17,10 +17,9 @@ SetConsoleCursorPosition(hCon,dwPos);
 void imprimirMatriz(int matrix [5][5]){
 	int i,j;
 //	printf("\n\n\n\n\n");
-	for(i=0; i< 5; i++){
-		//printf("\n\t\t\t\t\t");
-		if(i == 0){	
-			//Redundante(?)	
+	for(i=0; i< 5; i++){	
+		if(i == 0){
+			//nada 
 		}else{
 		printf("\n");
 		}	
@@ -42,7 +41,7 @@ void main(){
 	for(i = 0; i < 5; i++){
 		for(j = 0; j < 5; j++){
 			if(i== 0 && j == 0){
-				matriz[i][j] = 0;//siempre en la posicion 0,0 será 0
+				matriz[i][j] = 0;//siempre en la posicion 0,0 serÃ¡ 0
 			}else if(i == 5 && j == 0){
 				matriz[i][j] = 0;
 			}else{
@@ -53,7 +52,7 @@ void main(){
 	}
 	imprimirMatriz(matriz);
 	
-	gotoxy(0,0); //j+1, posicion 0,0
+	gotoxy(0,0); 
 	printf("7");
 	
 	printf("\n\n\n\n\n\n\n");
