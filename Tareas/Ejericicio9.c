@@ -1,22 +1,18 @@
-//¿Qué imprime?. ¿Qué imprime el siguiente fragmento de código?
-// Compruébalo. int x = 2, y = 6, z = 4; y = y+4*z; y +=x; printf("%d",y); 
-
-//yo opino que una regla propia del C6g
+//Media de 4 numeros por teclado
 #include <stdio.h>
 #include <math.h>
 void main(){
+	int a,b,c,d;
 	
-	int x = 2;
-	//supuse que estaba bien instanciado Y y Z
-	int y;
-	int z;
-	y = 6;
-	z = 4;
-	y = y+4*z;
-    y +=x;	
-	printf("%d",y);
-
+	printf("\nIngrese a: ");
+	scanf("%d",&a);
+	printf("\nIngrese b: ");
+	scanf("%d",&b);
+	printf("\nIngrese c: ");
+	scanf("%d",&c);
+	printf("\nIngrese d: ");
+	scanf("%d",&d);
 	
-	
-	
+	double promedio = (a+b+c+d)/4;
+	printf("\nEl promdio es: %f",promedio);
 }
