@@ -11,6 +11,6 @@ void main(){
 	scanf("%d",&ladoB);
 	int area = ladoA*ladoB;
 	int perimetro = (ladoA*2)+(ladoB*2);
-	printf("\nSu área:%d ",ladoA);
-	printf("\nSu perimetro:%d ",ladoB);
+	printf("\nSu Ã¡rea:%d ",area);
+	printf("\nSu perimetro:%d ",perimetro);
 }
