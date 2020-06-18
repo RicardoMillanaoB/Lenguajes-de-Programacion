@@ -50,7 +50,7 @@ int main(){
 			break;
 	
 		}
-		case 2:{ //eror en mensaje, aparentemente
+		case 2:{ 
 			
 			string auxCorreo;
 			bool estado = false;
@@ -169,7 +169,7 @@ int main(){
 			break;
 		}
 		
-		case 5:{//error
+		case 5:{
 			int opcionMuro;
 			
 			string auxCorreo;
